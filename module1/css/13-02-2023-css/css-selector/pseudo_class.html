@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+
+    <script src='main.js'></script>
+
+    <style>
+        body 
+        {
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+            box-sizing: border-box;
+
+        }
+        .navbar 
+        {
+            width: 100%;
+            height: 100px;
+            background-color: black;
+
+        }
+        .logo 
+        {
+            width: 25%;
+            height: auto;
+            color: white;
+            padding: 15px;
+            float: left;
+        }
+        .logo h2 
+        {
+            font-size: 32px;
+            margin-left: 15%;
+            margin-top: 0;
+        }
+        .navbar-link
+        {
+            width: 70%;
+            height: auto;
+            float: left;
+        }
+        .navbar-link ul li 
+        {
+            display: inline-block;
+            padding: 5px 35px;
+        }
+        .navbar a 
+        {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+        }
+
+        /* pseudo class selector */
+
+        .navbar a:active 
+        {
+
+        }
+        .navbar a:link 
+        {
+
+        }
+        .navbar a:hover 
+        {
+         color: red;
+         text-decoration: underline;
+        }
+        .navbar a:visited 
+        {
+        color:green;
+         text-decoration: underline;
+
+        }
+        .active 
+        {
+            color: red !important;
+
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div class="navbar nav">
+        <!-- logo -->
+        <div class="logo"><h2>Flipkart App</h2></div>
+        <div class="navbar-link">
+        <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Acount</a></li>
+            <li><a href="#">Contactus</a></li>
+        </ul>
+    </div>
+    </div>
+</body>
+</html>

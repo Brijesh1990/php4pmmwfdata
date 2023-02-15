@@ -1,0 +1,54 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    background: url('../images/login-bg.png') no-repeat;
+    background-size: cover;
+}
+
+.navbar 
+{
+    width: 100%;
+    height: auto;
+    background-color:#ecf5fb;
+}
+
+.logo 
+{
+    width: 30%;
+    height: auto;
+    margin: auto;
+    padding: 25px;
+}
+.logo img 
+{
+    width: 80%;
+    height: auto;
+}
+
+.login
+{
+    width: 35%;
+    height: auto;
+    margin: auto;
+    background-color: #ecf5fb;
+    border: solid 2px #4c92be;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+
+.login h1 
+{
+    color: #4c92be;
+    font-size: 45px;
+}
+.login h3 
+{
+    color: black;
+    font-size: 25px;
+    letter-spacing: 1px;
+    line-height: 0;
+    margin-top: -3%;
+} 
