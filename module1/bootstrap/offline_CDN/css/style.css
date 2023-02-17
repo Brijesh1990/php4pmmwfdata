@@ -1,0 +1,23 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.navbar-link
+{
+    width: 100%;
+    height: auto;
+}
+.navbar-link li 
+{
+    display: inline-block;
+    padding: 5px 25px;
+    font-size: 17px;
+}
+.navbar-link a 
+{
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+}
