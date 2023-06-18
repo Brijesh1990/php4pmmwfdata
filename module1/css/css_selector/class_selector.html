@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/font-awesome.min.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  
+    <!-- class selector : class selector provides different-2 style on webpage section calling class
+                        class access through . symbol
+                        class is always   repeated
+                        class  is not  unique  
+    
+    -->
+    <style>
+       body 
+       {
+        background-color: lightgray;
+        margin: 0;
+        padding: 0;
+       }
+       #header 
+       {
+        width: 100%;
+        height: auto;
+        background-color: white;
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+       }
+       .logo 
+       {
+        width: 30%;
+        height: auto;
+        padding: 10px;
+        /* float: left; */
+       }
+       .icon-logo b 
+       {
+        font-size: 40px;
+        text-shadow: 0px 1px red;
+       }
+
+       .search-box 
+       {
+        width: 50%;
+        height: auto;
+        /* float: left; */
+
+       }
+       .search-box input 
+       {
+        width: 550px;
+        height: auto;
+        padding: 10px;
+        margin-top: 2%;
+        border-radius: 15px;
+       }
+       .social-media
+       {
+        width: 30%;
+        height: auto;
+        margin-top: 1%;
+       }
+       .social-media b 
+       {
+        font-size: 25px;
+       }
+
+       #content 
+       {
+        width: 100%;
+        height: auto;
+       }
+       #content h1 
+       {
+        font-size: 45px;
+        text-align: center;
+        margin-top: 3%;
+        text-decoration: underline;
+        animation: 2s infinite heartBeat;;
+       }
+       .fa 
+       {
+        animation: 5s infinite fadeIn;
+       }
+    </style>
+</head>
+<body>
+
+    <!-- header section start here -->
+    <section id="header">
+    
+        <div class="logo icon-logo">
+            <b>Flipkart App</b>
+        </div>
+    
+        <div class="search search-box">
+            <input type="text" name="search" placeholder="Search anything here!">
+        </div>
+
+        <div class="social social-media">
+            <b>Like us On : 
+                
+                <span class="fa fa-facebook"></span>
+                <span class="fa fa-twitter"></span>
+                <span class="fa fa-instagram"></span>
+                <a href="https://www.youtube.com" target="_blank" style="color:red"><span class="fa fa-youtube"></span></a>
+                <span class="fa fa-snapchat"></span>
+                <span class="fa fa-whatsapp"></span>
+                
+            </b>
+        </div>
+         
+    </section> 
+
+
+    <section id="content">
+
+        <h1>Register with us!</h1>
+    </section>
+
+</body>
+</html>

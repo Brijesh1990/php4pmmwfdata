@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        body 
+        {
+            background-color: cadetblue;
+        }
+        /* pseudo element selector */
+        input[type="text"],textarea
+        {
+            width: 400px;
+            height: auto;
+            padding: 5px;
+            border: none;
+            border-bottom: solid 3px black;
+            background-color: cadetblue;
+
+        }
+        input[type="submit"]
+        {
+            width: 180px;
+            height: auto;
+            padding: 8px;
+            border: none;
+            background-color: black;
+            color: white;
+            margin-right: 2%;
+        }
+        input[type="reset"]
+        {
+            width: 180px;
+            height: auto;
+            padding: 8px;
+            border: none;
+            background-color:red;
+            color: white;
+            margin-right: 0%;
+        }
+    </style>
+</head>
+<body>
+
+    <center>
+        <h1>Contact us Form</h1>
+        <form>
+        <input type="text" name="name" placeholder="Name *" required>
+        <br><br>
+        <input type="text" name="email" placeholder="Email *" required>
+        <br><br>
+        <input type="text" name="mobile" placeholder="Phone *" required>
+        <br><br>
+        <input type="text" name="subject" placeholder="Subject *" required>
+        <br><br>
+        <textarea  name="message" placeholder="Message *" required></textarea>
+        <br><br>
+        <input type="submit" name="submit" value="Send">
+        
+        <input type="reset" name="reset" value="Reset">
+        <br><br>
+        
+        </form>
+    </center>
+    
+</body>
+</html>

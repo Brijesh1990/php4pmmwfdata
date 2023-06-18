@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        body 
+        {
+            margin: 0;
+            padding: 0;
+            background-color: cadetblue;
+        }
+        /* pseudo element selector */
+        input[type="text"],textarea
+        {
+            width: 400px;
+            height: auto;
+            padding: 5px;
+            border: none;
+            border-bottom: solid 3px black;
+            background-color: cadetblue;
+
+        }
+        input[type="submit"]
+        {
+            width: 180px;
+            height: auto;
+            padding: 8px;
+            border: none;
+            background-color: black;
+            color: white;
+            margin-right: 2%;
+        }
+        input[type="reset"]
+        {
+            width: 180px;
+            height: auto;
+            padding: 8px;
+            border: none;
+            background-color:red;
+            color: white;
+            margin-right: 0%;
+        }
+
+        .navbar 
+        {
+            width: 100%;
+            height: auto;
+            background-color: black;
+            padding: 5px;
+        }
+        .navbar ul li 
+        {
+            display: inline-block;
+            padding: 5px 28px;
+        }
+        .navbar a 
+        {
+            color: white;
+            text-decoration: none;
+            list-style-type: none;
+            font-size: 20px;
+            text-transform: capitalize;
+        }
+
+        /* pseudo class selector */
+        .navbar a:hover 
+        {
+            color: red;
+            text-decoration: underline;
+        }
+        .navbar a:visited
+        {
+            /* color: yellow;
+            text-decoration: underline; */
+
+        }
+        .navbar a:active 
+        {
+            color: yellow;
+            text-decoration: underline;
+        }
+        .navbar a:link 
+        {
+
+            color: chartreuse;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- navigation bar -->
+    <section class="navbar">   
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">about</a></li>
+        <li><a href="#">our services</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">portfolio</a></li>
+        <li><a href="#">feedback</a></li>
+        <li><a href="#">contact us</a></li>
+        <li><a href="#">account</a></li>
+    
+
+    </ul>
+    </section>
+
+    <center>
+        <h1>Contact us Form</h1>
+        <form>
+        <input type="text" name="name" placeholder="Name *" required>
+        <br><br>
+        <input type="text" name="email" placeholder="Email *" required>
+        <br><br>
+        <input type="text" name="mobile" placeholder="Phone *" required>
+        <br><br>
+        <input type="text" name="subject" placeholder="Subject *" required>
+        <br><br>
+        <textarea  name="message" placeholder="Message *" required></textarea>
+        <br><br>
+        <input type="submit" name="submit" value="Send">
+        
+        <input type="reset" name="reset" value="Reset">
+        <br><br>
+        
+        </form>
+    </center>
+    
+</body>
+</html>
